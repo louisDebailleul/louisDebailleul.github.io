@@ -1,0 +1,234 @@
+body{
+    background: #CFCFCF;
+}
+header{
+    height: 214px;
+    margin-top: -23px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 10px;
+    font-weight: bold;
+}
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 22px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+}
+header div {
+height: 214px;
+margin-top: -23px;
+z-index: 1;
+position: relative;
+width: 77%;
+margin: 0 auto;
+background: url(../img/fond.jpg);
+}
+header div img{
+    width: 100%;
+}
+
+.conteneur-site{
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 20px;
+}
+.conteneur-bor-droit{
+width: 95%;
+margin: 0 auto;
+background: url(../img/tourmente.jpg);
+}
+.contenu{
+background: url(../img/fond.jpg);
+width: 91%;
+margin: 0 auto;
+padding: 25px;
+margin-top: -19px
+}
+h1{
+  text-align: center;
+}
+ul{
+    list-style: none;
+}
+.floatL5{
+    float: left;
+    padding: 1%;
+    width: 48%;
+}
+.floatR5{
+    float: right;
+    padding: 1%;
+    width: 48%;
+}
+.clean{
+    clear: both;
+}
+.tranparent{
+   background-color: rgba(255, 255, 255, 0.5);
+}
+                                        /*Header*/
+
+nav {
+width: 78%;
+background: #000;
+margin: 0 auto;
+z-index: 43;
+position: absolute;
+top: 162Px;
+left: 11%;
+}
+nav ul {
+margin: 0 auto;
+}
+nav ul li{
+    float: left;
+}
+nav a {
+  display: inline-block;
+height: 36px;
+margin: 0;
+line-height: 36px;
+text-decoration: none;
+color: white;
+font-family: Helvetica, Arial, Verdana, sans-serif;
+font-size: 1em;
+width: 141px;
+text-align: center;
+}
+nav::after{
+position: absolute;
+content: '';
+top: 100%;
+left: 0;
+background-color: transparent !important;
+border-style: solid;
+border-width: 0 1.2em 1.2em 0;
+border-color: transparent;
+border-right-color: inherit;
+width: 0;
+height: 0;
+}
+
+.seach {
+width: 268px;
+float: right;
+margin-right: 22px;
+padding-left: 10px;
+position: relative;
+margin-top: -35PX;
+} 
+
+                                     /*Home*/
+.imgUne{
+    width: 100%;
+}
+
+.alert{
+background: #E7E7CD;
+position: fixed;
+width: 9%;
+top: 210px;
+left: 6px;
+padding: 10px;
+}
+.alert h5{
+    
+    margin: 0px;
+    color: red;
+ }
+                                 /*inscription*/
+.conteneur-inscription {
+    width: 80%;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.inscription{
+ width: 80%;
+margin: 0 auto;
+padding-left: 10%;
+padding-right: 10%;
+}
+.inscription div label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inscription div input{
+     width: 100%;
+}
+
+.inscription input {
+  border: 2px solid #dfdfdf;
+  border-radius: 40px;
+  height: 40px;
+  padding: 0 11px;
+  font-size: 14px;
+  display: flex;
+  overflow: hidden;
+  color: #888;
+}
+.inscription input  {
+  background: #898989;
+  margin-right: 7px;
+  color: #fff;
+  padding: 4px 7px;
+  border-radius: 20px;
+}
+
+.inscription input:focus {
+  border-color: #71ccd5;
+  outline: none;
+}
+                                    /*FOOTER*/
+footer{
+    background: #000;
+}
+.logo-footer{
+    margin-top: 20px;
+}
+.icone lu{
+  width: 153px;
+}
+.icone li {
+    float: left;
+    padding: 5px;
+}
+.icone li a{
+    background: url("../img/sprites.png") no-repeat;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+}
+.icone .icone-1 {
+        background-position-y: -6px;
+        background-position-x: -5px;
+}
+.icone .icone-2 {
+        background-position-y: -56px;
+        background-position-x: -5px;
+}
+.icone .icone-3 {
+    background-position-y: -6px;
+    background-position-x: -55px;
+}
+

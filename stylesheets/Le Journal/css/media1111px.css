@@ -1,0 +1,34 @@
+@media screen  and (max-width:1111px){
+        nav ul li{
+            float: none;
+        } 
+        nav {
+            top: 118Px;
+        }
+        .seach{
+            margin: 0 auto;
+            float: none;
+            margin: -14px auto;
+            margin-bottom: 21px;
+        }
+        nav ul {
+            margin: 0 auto;
+            width: 133px;
+            padding: 0;
+        }
+        .contenu{
+            margin-top: 75px;
+        }
+        .floatL5 {
+            float: none;
+            width: 98%;
+        }
+        .floatR5 {
+            float: none;
+            width: 98%;
+        }
+        footer{
+            width: 76%;
+            margin: 0 auto;
+        }
+}
