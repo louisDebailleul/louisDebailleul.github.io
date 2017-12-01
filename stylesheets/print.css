@@ -1,0 +1,485 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*---------------------------------------------GLOBAL SITE--------------------------------------------------- */
+/* line 8, ../sass/style.scss */
+i {
+  color: #f12227;
+}
+
+/* line 11, ../sass/style.scss */
+html, body {
+  color: #CFCFCF;
+  max-width: 1500px;
+  width: 100%;
+  min-width: 350px;
+  background: #252F3B;
+  background: url("../img/fonds.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  /*    position: fixed;*/
+}
+
+/* line 23, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* line 28, ../sass/style.scss */
+h1 {
+  font-size: 26px;
+  color: #f12227;
+}
+
+/* line 32, ../sass/style.scss */
+h2 {
+  font-size: 24px;
+}
+
+/* line 35, ../sass/style.scss */
+h3 {
+  font-size: 22px;
+}
+
+/* line 38, ../sass/style.scss */
+h4 {
+  font-size: 20px;
+}
+
+/* line 41, ../sass/style.scss */
+h5 {
+  font-size: 18px;
+}
+
+/* line 44, ../sass/style.scss */
+h6 {
+  font-size: 16px;
+}
+
+/* line 47, ../sass/style.scss */
+a {
+  text-decoration: none;
+  color: #CFCFCF;
+}
+
+/* line 51, ../sass/style.scss */
+a:hover {
+  color: #f12227;
+}
+
+/* line 54, ../sass/style.scss */
+h2::after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  background-color: transparent !important;
+  border-style: solid;
+  border-width: 0 1.2em 1.2em 0;
+  border-color: transparent;
+  border-right-color: inherit;
+  width: 0;
+  height: 0;
+}
+
+/* line 67, ../sass/style.scss */
+h2 {
+  text-align: center;
+  width: 108%;
+  position: relative;
+  border-color: #373738;
+  background-color: #7A7A7A;
+  left: -65px;
+  color: #fff !important;
+  margin-bottom: 25px;
+}
+/* line 77, ../sass/style.scss */
+h2 span i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*CLASS GLOBAL*/
+/* line 85, ../sass/style.scss */
+.contenu {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 89, ../sass/style.scss */
+.conteneur {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+/* line 95, ../sass/style.scss */
+.floatL5 {
+  float: left;
+  padding: 1%;
+  width: 48%;
+}
+
+/* line 100, ../sass/style.scss */
+.floatL3 {
+  float: left;
+  padding: 1%;
+  width: 31%;
+}
+
+/* line 106, ../sass/style.scss */
+.clean {
+  clear: both;
+}
+
+/*---------------------------------------------HEADER--------------------------------------------------- */
+/* line 110, ../sass/style.scss */
+header {
+  z-index: 10;
+}
+
+/* line 113, ../sass/style.scss */
+nav {
+  position: fixed;
+  background: #181818;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 50px;
+  top: 0;
+  border-bottom: 2px solid #fff;
+}
+/* line 122, ../sass/style.scss */
+nav .floatL5 {
+  padding: 0;
+  height: 50px;
+}
+
+/* line 127, ../sass/style.scss */
+.menu {
+  line-height: 50px;
+  width: 450px;
+  margin: 0 auto;
+}
+/* line 131, ../sass/style.scss */
+.menu li {
+  float: left;
+  width: 150px;
+}
+/* line 134, ../sass/style.scss */
+.menu li a {
+  font-size: 18px;
+  text-align: center;
+  font-size: 18px;
+  display: block;
+}
+
+/*---------------------------------------------PRESENTATION--------------------------------------------------- */
+/* line 144, ../sass/style.scss */
+.presentation {
+  background: #181818;
+  margin-top: 118px;
+  padding: 37px;
+}
+
+/* line 150, ../sass/style.scss */
+.detail img {
+  width: 95%;
+  border-radius: 75PX;
+  border: 3px solid #f12227;
+}
+/* line 155, ../sass/style.scss */
+.detail ul {
+  padding-top: 49px;
+}
+/* line 157, ../sass/style.scss */
+.detail ul li {
+  padding: 10px;
+}
+
+/* line 164, ../sass/style.scss */
+.textDetail p {
+  padding: 20PX;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+/*---------------------------------------------SAVOIR FAIRE--------------------------------------------------- */
+/* line 171, ../sass/style.scss */
+.savoir {
+  background: #181818;
+  margin-top: 118px;
+  padding: 37px;
+}
+/* line 175, ../sass/style.scss */
+.savoir h4 {
+  text-align: center;
+}
+/* line 178, ../sass/style.scss */
+.savoir ul, .savoir ol {
+  padding-left: 36px;
+}
+/* line 181, ../sass/style.scss */
+.savoir li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* line 184, ../sass/style.scss */
+.savoir li span {
+  font-weight: bold;
+  color: #15D800;
+}
+
+/*---------------------------------------------LOISIR--------------------------------------------------- */
+/* line 191, ../sass/style.scss */
+.loisir {
+  background: #181818;
+  margin-top: 118px;
+  padding: 37px;
+}
+
+/* line 197, ../sass/style.scss */
+.un-loisir {
+  margin: 45px 25px 0 25px;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  float: left;
+}
+/* line 204, ../sass/style.scss */
+.un-loisir .img-loisir {
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  border: solid #fff 1px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size: cover;
+  background-position: top;
+  z-index: 1;
+}
+/* line 216, ../sass/style.scss */
+.un-loisir .cacher {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition-duration: 700ms;
+  border-radius: 30px;
+}
+/* line 225, ../sass/style.scss */
+.un-loisir .cacher h3 {
+  top: 20px;
+  position: absolute;
+}
+
+/* line 233, ../sass/style.scss */
+.un-loisir .cacher:hover {
+  opacity: 0.5;
+}
+
+/* line 237, ../sass/style.scss */
+.contenu-loisir {
+  width: 1000px;
+  margin: 0 auto;
+}
+/* line 240, ../sass/style.scss */
+.contenu-loisir h4 {
+  padding: 20px;
+  margin-top: 1Opx;
+  margin-bottom: 10px;
+}
+
+/*---------------------------------------------FOOTER--------------------------------------------------- */
+/* line 248, ../sass/style.scss */
+footer {
+  background: #000;
+  text-align: center;
+}
+
+/* line 253, ../sass/style.scss */
+.contenu-footer {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* line 258, ../sass/style.scss */
+.icone li {
+  float: left;
+  padding: 5px;
+}
+/* line 261, ../sass/style.scss */
+.icone li a {
+  background: url("../img/sprites.png") no-repeat;
+  width: 41px;
+  height: 41px;
+  display: inline-block;
+}
+
+/* line 268, ../sass/style.scss */
+.icone .icone-1 {
+  background-position-y: -6px;
+  background-position-x: -5px;
+}
+
+/* line 272, ../sass/style.scss */
+.icone .icone-2 {
+  background-position-y: -56px;
+  background-position-x: -5px;
+}
+
+/* line 276, ../sass/style.scss */
+.icone .icone-3 {
+  background-position-y: -6px;
+  background-position-x: -55px;
+}
+
+@media screen and (max-width: 1299px) {
+  /* line 3, ../sass/meta1299px.scss */
+  .contenu-loisir {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 973px) {
+  /* line 3, ../sass/meta973px.scss */
+  .floatL3 {
+    float: none;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 9, ../sass/meta973px.scss */
+  .floatL5 {
+    float: none;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 15, ../sass/meta973px.scss */
+  nav {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 645px) {
+  /* line 3, ../sass/meta645.scss */
+  .contenu-loisir {
+    width: 260px;
+  }
+
+  /* line 6, ../sass/meta645.scss */
+  .menu {
+    margin: auto;
+  }
+  /* line 8, ../sass/meta645.scss */
+  .menu li {
+    float: none;
+  }
+
+  /* line 12, ../sass/meta645.scss */
+  nav {
+    height: 202px;
+    position: absolute;
+  }
+
+  /* line 16, ../sass/meta645.scss */
+  .presentation {
+    margin-top: 277px;
+  }
+}
+@media print {
+  @page {
+    margin: 1cm;
+  }
+  /* line 6, ../sass/mediaPage.scss */
+  *,
+  *:before,
+  *:after,
+  *:first-lettre,
+  p:first-line,
+  div:first-ligne,
+  blockquote:first-line,
+  li:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none;
+    text-shadow: none;
+  }
+
+  /* line 19, ../sass/mediaPage.scss */
+  p {
+    widows: 4;
+    orphans: 3;
+  }
+
+  /* line 23, ../sass/mediaPage.scss */
+  a[href^="http"]:not([href*="monsite"]):after {
+    content: "(" attr(href) ")";
+  }
+}

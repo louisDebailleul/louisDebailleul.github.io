@@ -1,0 +1,22 @@
+@media screen and (max-width: 973px) {
+  /* line 3, ../sass/meta973px.scss */
+  .floatL3 {
+    float: none;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 9, ../sass/meta973px.scss */
+  .floatL5 {
+    float: none;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 15, ../sass/meta973px.scss */
+  nav {
+    height: 100px;
+  }
+}

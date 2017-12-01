@@ -1,0 +1,26 @@
+@media screen and (max-width: 645px) {
+  /* line 3, ../sass/meta645.scss */
+  .contenu-loisir {
+    width: 260px;
+  }
+
+  /* line 6, ../sass/meta645.scss */
+  .menu {
+    margin: auto;
+  }
+  /* line 8, ../sass/meta645.scss */
+  .menu li {
+    float: none;
+  }
+
+  /* line 12, ../sass/meta645.scss */
+  nav {
+    height: 202px;
+    position: absolute;
+  }
+
+  /* line 16, ../sass/meta645.scss */
+  .presentation {
+    margin-top: 277px;
+  }
+}
